@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row bg-primary">
+            <!-- Rendered buttons will get dumped here  -->
+            <p id="buttons-view"></p>
+        </div>
+        <div class="row bg-danger text-center">
+        	<div class="col-xs-9">
+        		        <!-- topics will get dumped Dere -->
+
+        	        <div id="topic-view"></div>
+			</div>
+        <div class="col-xs-3 bg-warning text-left panel panel-primary inputForm">
+        <form id="topic-form">
+        	
+            <label class="block animalInput" for="topic-input">Add an Animal:</label>
+            <input class="block" type="text" id="topic-input">
+            <br>
+            <!-- Button triggers new topic to be added -->
+            <input class="btn btn-primary" id="add-topic" type="submit" value="Submit">
+        </form>
+        </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>
